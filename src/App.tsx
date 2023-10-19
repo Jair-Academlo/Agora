@@ -1,11 +1,11 @@
 import { useRef, useState } from 'react';
-import './App.css';
 import AgoraRTC, {
 	ICameraVideoTrack,
 	IMicrophoneAudioTrack,
 	IAgoraRTCClient,
 	IAgoraRTCRemoteUser,
 } from 'agora-rtc-sdk-ng';
+import './App.css';
 
 const client: IAgoraRTCClient = AgoraRTC.createClient({
 	mode: 'rtc',
